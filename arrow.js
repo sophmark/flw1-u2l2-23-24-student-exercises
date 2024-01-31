@@ -1,17 +1,19 @@
 // 1. Covert to an arrow function.
-function sayHello() {
-    console.log("Hello, world!");
-  }
 
+const sayHello = () => {
+  return "Hello, world!";
+}
+
+//console.log(sayHello);
 
 // 2. Convert to an arrow function.
-function square(num) {
+const square = (num) => {
     return num * num;
   }
   
 
 // 3. Convert to an arrow function.
-function addNums(a, b) {
+const addNums = (a, b) => {
     return a + b;
   }
   
